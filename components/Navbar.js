@@ -37,13 +37,9 @@ export default function Navbar() {
             ))}
           </ul>
 
-          {/* <button className="flex justify-center items-center px-5 py-2.5 text-white bg-blue rounded-lg">
-            Download CV
-          </button> */}
-
-          <button className="flex items-center justify-center px-4 py-2   font-sans font-semibold  border-2  border-gray-400 text-gray-700 rounded-lg transition duration-200 hover:bg-gray-100 transform md:hover:scale-105 ">
+          <button className="flex items-center justify-center px-4 py-2   font-sans font-semibold  border-2  border-gray-400 text-gray-700 rounded-sm transition duration-200 hover:bg-gray-100 transform md:hover:scale-105 ">
             Resume
-            <ArrowNarrowDownIcon className="h-5 w-5 ml-3 animate-bounce fill-current" />
+            <ArrowNarrowDownIcon className="h-3.5 w-3.5 ml-2  animate-bounce fill-current" />
           </button>
         </div>
 

@@ -12,9 +12,11 @@ module.exports = {
       },
       fontSize: {
         "5xl": ["3rem", "3.4rem"],
+        "4xl": "2rem",
       },
       colors: {
         blue: {
+          50: "#ECEBFF",
           400: "#7770FF",
           DEFAULT: "#564EFF",
           600: "#5147FF",
@@ -22,8 +24,8 @@ module.exports = {
         },
         primary: "#333333",
         "primary-dark": "#21262f",
-        secondary: "#",
-        "secondary-dark": "#",
+        secondary: "#FFC71B",
+        "secondary-dark": "#21262F2B",
       },
       rotate: {
         135: "135deg",
@@ -32,6 +34,9 @@ module.exports = {
       screens: {
         xs: "360px",
         ...defaultTheme.screens,
+      },
+      spacing: {
+        "screen/2": "50vw",
       },
     },
   },
