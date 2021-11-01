@@ -24,8 +24,7 @@ module.exports = {
         },
         primary: "#333333",
         "primary-dark": "#21262f",
-        secondary: "#FFC71B",
-        "secondary-dark": "#21262F2B",
+        secondary: "#2aeaec",
       },
       rotate: {
         135: "135deg",
@@ -37,6 +36,9 @@ module.exports = {
       },
       spacing: {
         "screen/2": "50vw",
+      },
+      lineHeight: {
+        no: "0",
       },
     },
   },

@@ -19,11 +19,11 @@ export default function Hero() {
       className="flex flex-col gap-y-12 mt-12   items-center md:mt-16  md:flex-row md:gap-x-8 md:gap-y-0"
     >
       <div className="flex-1">
-        <h1 className="font-pop font-bold text-2xl  xs:text-5xl  text-primary mb-3">
+        <h1 className="font-pop font-bold text-2xl  xs:text-5xl  text-primary mb-3 break-words ">
           Software Engineering Student with a strong passion for
           <span className="text-blue"> Web Developement </span>
         </h1>
-        <p className="font-sans text-base text-gray-600 mb-8">
+        <p className="font-sans text-base text-gray-600 mb-8 break-words ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
           maxime blanditiis at neque, magni voluptates, exercitationem
         </p>

@@ -32,11 +32,11 @@ export default function About() {
         </p>
 
         <div className="w-1/2 flex justify-center  group   md:w-2/5 lg:self-start">
-          <div className="relative  w-screen/2  h-screen/2    sm:w-80 sm:h-80  bg-blue-500 rounded-xl ">
-            <div className="absolute -right-3 -bottom-3  md:-right-5 md:-bottom-5 border-2 border-blue-400 h-full w-full rounded-lg group-hover:-right-2 group-hover:-bottom-2 md:group-hover:-right-3 md:group-hover:-bottom-3  transition-all duration-400 ease-in-out" />
+          <div className="relative  w-screen/2  h-screen/2    sm:w-80 sm:h-80  bg-primary rounded-lg leading-no ">
+            <div className="absolute -right-3 -bottom-3  md:-right-5 md:-bottom-5 border-2 border-primary h-full w-full rounded-sm group-hover:-right-2 group-hover:-bottom-2 md:group-hover:-right-3 md:group-hover:-bottom-3  transition-all duration-400 ease-in-out" />
 
             <Image
-              className="rounded-lg opacity-75 hover:opacity-100 transition-all duration-200 ease-in-out"
+              className="relative  rounded-md opacity-75 hover:opacity-100 transition-all duration-200 ease-in-out"
               src={MyImg}
               alt="My Photo"
               layout="fill"
